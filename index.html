@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute of Digital Risk (IDR)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="#hero" style="display: flex; align-items: center; gap: 10px;">
+                   
+                    <svg width="32" height="32" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" fill="currentColor"/> <rect y="31" width="28" height="28" fill="currentColor"/> <rect y="62" width="28" height="28" fill="currentColor"/> <rect x="31" width="28" height="28" fill="currentColor"/> <rect x="31" y="31" width="28" height="28" fill="currentColor"/> <rect x="31" y="62" width="28" height="28" fill="currentColor"/> <rect x="62" y="31" width="28" height="28" fill="currentColor"/> <rect x="62" y="62" width="28" height="28" fill="currentColor"/>
+                        <rect x="62" width="28" height="28" fill="#FFA500"/>
+                    </svg>
+                   
+                    <span class="logo-text">Institute of Digital Risk</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About IDR</a></li>
+                <li><a href="#services">Service Pillars</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Advancing the Future of Digital Risk</h1>
+                <p>IDR trains and deploys elite digital risk professionals by combining rigorous academic collaboration with hands-on industry practice.</p>
+                <a href="#services" class="cta-button">Explore Programs</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-container">
+                <h2>About IDR</h2>
+                <p>The Institute of Digital Risk (IDR) is an industry-led training and deployment institute dedicated to building the next generation of talent in digital, cyber, and technology risk management. We bridge the gap between academic theory and real-world application through strategic partnerships with universities and direct involvement in live projects.</p>
+                <p>Our mission is to create a pipeline of job-ready professionals equipped to handle the complexities of the modern risk landscape, from AI governance to critical infrastructure protection.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="section-container">
+                <h2>Our Service Pillars</h2>
+                <div class="pillars-container">
+                    <div class="pillar-card">
+                        <h3>Academy</h3>
+                        <p>Intensive training programs and bootcamps designed to forge expert-level digital risk professionals.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <h3>Innovation & Incubation</h3>
+                        <p>Developing next-generation AI governance frameworks and cutting-edge risk models.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <h3>Advisory Services</h3>
+                        <p>Implementing robust risk frameworks like NIST, ISO 27001, and NIS2 for our industry partners.</p>
+                    </div>
+                </div>
+                <div class="pipeline-visual">
+                    <span>Train</span> &rarr; <span>Hire</span> &rarr; <span>Innovate</span> &rarr; <span>Deploy</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="community">
+            <div class="section-container">
+                <h2>Our Community</h2>
+                <p>IDR serves a diverse community of ambitious individuals and organizations. We empower students seeking a career in tech, early-career professionals aiming to specialize, and seasoned practitioners from critical sectors like financial services and energy who need to stay ahead of the curve.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-container">
+                <h2>Contact Us</h2>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Institute of Digital Risk. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

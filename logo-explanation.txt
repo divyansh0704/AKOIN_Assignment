@@ -1,0 +1,11 @@
+LOGO DESIGN EXPLANATION: "The Resilient Cube"
+
+1. Concept & Symbolism:
+   The logo features a geometric cube representing structure, data, and stability. One corner is deconstructed and highlighted in orange, symbolizing a specific "risk" or vulnerability that is being identified and managed by the solid black framework (the Institute).
+
+2. Color Palette:
+   - Orange (#FFA500): Represents energy, warning, and the proactive identification of risk.
+   - Black (#1a1a1a): Symbolizes authority, resilience, and the solid foundation of the institute.
+
+3. Typography:
+   We used "Poppins", a geometric sans-serif font. It was chosen for its clean, modern tech aesthetic and high readability across all digital devices.
